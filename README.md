@@ -13,7 +13,7 @@ docker run -d \
 If runing on Unraid you must add the `--network="host"` to the config to allow for connectivity
 
 ## Config file
-Edit config file and add `apiKey`, change name if you wish and change `scanMinute` to what you like. I have mine set to 1
+Edit config file and add `apiKey` minus {}, change name if you wish and change `scanMinute` to what you like. I have mine set to 1
 You can just copy this template and save as config.yaml but has to be in this format exact.
 ```
 path:
