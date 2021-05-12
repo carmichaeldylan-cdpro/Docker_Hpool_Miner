@@ -1,0 +1,17 @@
+path:
+- /plots/
+minerName: Docker-Miner
+apiKey: 
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: debug
+  path: /plots/logs
+  name: miner.log
+url:
+  info: ""
+  submit: ""
+scanPath: true
+scanMinute: 1
+
