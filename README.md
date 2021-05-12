@@ -5,9 +5,9 @@ Pull the image and download the `config.yaml`
 
 ```
 docker run -d \
-   --name=hpool-miner
-   -v {config to config.yaml file}:/hpool/config.yaml:ro
-   -v {dir to plots}:/plots
+   --name=hpool-miner \
+   -v {config to config.yaml file}:/hpool/config.yaml:ro \
+   -v {dir to plots}:/plots \
    ghcr.io/carmichaeldylan-cdpro/docker_hpool_miner
 ```
 If runing on Unraid you must add the `--network="host"` to the config to allow for connectivity
