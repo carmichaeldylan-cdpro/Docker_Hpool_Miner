@@ -23,4 +23,4 @@ RUN wget -O /hpool/miner.zip https://github.com/hpool-dev/chia-miner/releases/do
 	&& mv hpool-miner-chia miner \
     && rm -R linux/ __MACOSX/ chia-plotter/ ploter.zip miner.zip config.yaml
 
-CMD ["/hpool/mine"]
+CMD ["/hpool/miner"]
