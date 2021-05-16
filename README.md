@@ -35,7 +35,7 @@ scanMinute: 1
 ```
 
 ## Creating Signature Key
-You will have to console into the container to retreive your signature key. I have not yet found a simpler way of going this.
+You will have to console into the container to retreive your signature key. I have not yet found a simpler way of doing this.
 ```
 docker exec -it hpool-miner bash
 plot-sign -action sign
