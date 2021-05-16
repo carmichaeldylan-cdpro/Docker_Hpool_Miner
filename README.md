@@ -1,4 +1,4 @@
-# Doker Hpool Miner
+# Docker Hpool Miner
 
 ## Deploy
 Pull the image and download the `config.yaml`
