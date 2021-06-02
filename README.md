@@ -38,6 +38,6 @@ scanMinute: 1
 You will have to console into the container to retrieve your signature key. I have not yet found a simpler way of doing this.
 ```
 docker exec -it hpool-miner bash
-plot-sign -action sign
+./plot-sign -action sign
 ```
 #### Enter mnemonic word
